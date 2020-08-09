@@ -1,0 +1,161 @@
+body{
+  background-color: #e5eaea;
+  color: #006DAA;
+  font-size: 25px;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1{
+  font-family: 'Roboto Slab', serif;
+  color: #142850;
+  font-size: 100px;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  color: #00909E;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+  font-size: 16px;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 250px;
+}
+
+
+.avatar {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.avatar-large {
+  width: 56px;
+  border-radius: 50%;
+}
+
+.avatar-bordered {
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+
+.avatar-square {
+  width: 50px;
+  border-radius: 0px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 30 10 40 10;
+}
+
+.banner h1 {
+  color: white;
+  text-shadow: 1px 1px 5px #142850;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .8;
+  text-shadow: 1px 1px 5px #142850;
+  padding-top: 10px;
+}
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #7ACBCD;
+  transition: background 0.3s ease;
+
+}
+
+.btn-flat:hover {
+  background: #7fdee0;
+  color: white;
+  }
+
+
+h5 {
+  font-family: 'Roboto Slab', serif;
+  color: #7ACBCD;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  color: #454747;
+  font-weight: bolder;
+  font-size: 16px;
+  opacity: .9;
+}
+
+label {
+  font-family: 'Roboto Slab', serif;
+  color: #454747;
+  opacity: .9;
+  font-size: 18px;
+  display: block;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+  color: #003559;
+  font-size: 36px;
+}
+
+.form-text {
+  font-size: 14px;
+}
+
+#footer{
+  padding: 10px;
+  background: #7ACBCD;
+  color: #454747;
+  font-size: 20px;
+}
+
+#footer p {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#footer a {
+  color: #454747;
+}
+
+#footer a:hover {
+  color: white;
+}
+
